@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90CAF9"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="3dp"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_margin="20sp"
+            android:hint="Enter id"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter name"
+            android:inputType="textPersonName"
+            android:textColorHint="#070707"
+            android:layout_margin="20sp" />
+
+        <EditText
+            android:id="@+id/place"
+            android:layout_width="350dp"
+            android:layout_margin="20sp"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter your place"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/insert"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0DDDCA"
+            android:text="INSERT" />
+
+        <Button
+            android:id="@+id/select"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0DDDCA"
+            android:text="SELECT" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0DDDCA"
+            android:text="UPDATE" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0DDDCA"
+            android:text="DELETE" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#CF1010"
+            android:text="CLEAR" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
